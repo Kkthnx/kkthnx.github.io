@@ -8,7 +8,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     color: #333;
 }
 
@@ -45,10 +46,49 @@ section {
     margin-bottom: 40px;
 }
 
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 /* Footer Styling */
 footer {
     background-color: #f8f8f8;
     padding: 20px;
     text-align: center;
     font-size: 12px;
+}
+
+footer p:last-child {
+    margin-top: 20px;
+}
+
+/* Additional Styles */
+
+/* Styling for Community UI Setups */
+section#community ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+section#community ul li {
+    flex-basis: 30%;
+}
+
+/* Styling for Contact Information */
+section#contact ul {
+    padding-left: 20px;
+}
+
+section#contact ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+/* Styling for Call to Action in Footer */
+footer p:last-child {
+    font-weight: bold;
+    color: #007bff;
 }
